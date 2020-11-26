@@ -1,7 +1,7 @@
 
 
 class TestBloodData{
-    public static void main(String[] ar){
+    public static void main(String[] args){
     	BloodData ob1 = new BloodData();
         System.out.println("Default Blood type is "+ob1.gettype()+ob1.getrh());
         BloodData ob2 = new BloodData("A","-");
